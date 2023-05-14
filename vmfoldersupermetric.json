@@ -1,0 +1,12 @@
+{"2bfd7f97-1b5d-4aa4-86f0-0a062543a082": {
+   "resourceKinds": [{
+      "resourceKindKey": "VMFolder",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1683809758532,
+   "name": "VM Folder Cost",
+   "formula": "sum(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=cost|monthlyTotalCost, depth=1})",
+   "description": "VM Folder Cost",
+   "unitId": "",
+   "modifiedBy": "287ed085-c6ca-4255-b69c-956f1665ed51"
+}}
